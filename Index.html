@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="style.css">
+      <!-- FONT LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Rajdhani:wght@300;400;500&display=swap" rel="stylesheet">
+   <!-- svg -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>  
+ <body>
+    <!-- NAVBAR -->
+    <nav class="navbar vw-100 fixed-top">
+        <div class="container  justify-content-center">
+            <div class="row ">
+                <div class="col-3">  <a class="navbar-brand vw-100 " href="#">
+                    <img class="logosize" src="./media/logo.png" alt="Bootstrap" >
+                  </a>
+                </div>
+            </div>
+        </div>
+      
+        <div class="row-fluid vw-100  ">
+            <ul class=" col-12 col-lg-6 d-flex justify-content-around mx-auto navbartext">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Primo link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Altro link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Terzo link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ultimo link</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- IMG BACKGROUND -->
+    <header class="position-relative ">
+      <section class="container-fluid">
+        <div class="row position-relative ">
+          <div class="col-12 col-lg-12 Sfondo1  "></div>
+          <div class="col-12 col-lg-12 Sfumatura"></div>
+          <div class="col-12 col-lg-12 Sfondo2 "></div>
+          <div class="row  position-absolute">
+             <div class="col-12  col-12-lg d-flex  ContainerTitle ">
+            <h1 class="mainTitle"> LOREM </h1>
+          </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- FRASE -->
+      <section class="container-fluid ">
+        <div class="row ">
+          <div class=" col-12 col-lg-5  mx-auto ">
+            <p class="textHead "> 〞Lorem, ipsum dolor sit amet consectetur adipisicing elit. In dolores molestiae nulla sit velit natus eius libero minima, facere, temporibus saepe ipsa quidem atque eligendi aperiam dignissimos eos voluptatem totam. 〟</p>
+          </div>
+        </div>
+      </section>
+      <!-- FINE FRASE -->
+      <!-- ICONS -->
+      <section class="container-fluid">
+        <div class="row-fluid d-flex justify-content-around distanceContainerIcons mx-0">
+          
+          <div class="col-12 col-md-6 col-lg-2 borderIcons  "class="card simbolCard  ">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-100" height="4em" viewBox="0 0 448 512"><path d="M224 0c13.3 0 24 10.7 24 24V70.1l23-23c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-57 57v76.5l66.2-38.2 20.9-77.8c3.4-12.8 16.6-20.4 29.4-17s20.4 16.6 17 29.4L373 142.2l37.1-21.4c11.5-6.6 26.2-2.7 32.8 8.8s2.7 26.2-8.8 32.8L397 183.8l31.5 8.4c12.8 3.4 20.4 16.6 17 29.4s-16.6 20.4-29.4 17l-77.8-20.9L272 256l66.2 38.2 77.8-20.9c12.8-3.4 26 4.2 29.4 17s-4.2 26-17 29.4L397 328.2l37.1 21.4c11.5 6.6 15.4 21.3 8.8 32.8s-21.3 15.4-32.8 8.8L373 369.8l8.4 31.5c3.4 12.8-4.2 26-17 29.4s-26-4.2-29.4-17l-20.9-77.8L248 297.6v76.5l57 57c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-23-23V488c0 13.3-10.7 24-24 24s-24-10.7-24-24V441.9l-23 23c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l57-57V297.6l-66.2 38.2-20.9 77.8c-3.4 12.8-16.6 20.4-29.4 17s-20.4-16.6-17-29.4L75 369.8 37.9 391.2c-11.5 6.6-26.2 2.7-32.8-8.8s-2.7-26.2 8.8-32.8L51 328.2l-31.5-8.4c-12.8-3.4-20.4-16.6-17-29.4s16.6-20.4 29.4-17l77.8 20.9L176 256l-66.2-38.2L31.9 238.6c-12.8 3.4-26-4.2-29.4-17s4.2-26 17-29.4L51 183.8 13.9 162.4c-11.5-6.6-15.4-21.3-8.8-32.8s21.3-15.4 32.8-8.8L75 142.2l-8.4-31.5c-3.4-12.8 4.2-26 17-29.4s26 4.2 29.4 17l20.9 77.8L200 214.4V137.9L143 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l23 23V24c0-13.3 10.7-24 24-24z"/></svg>
+            <div class="card-body mt-3  ">
+              <p >lorem ipsum dolor</p>
+            </div>
+            
+          </div> 
+                     
+          <div class="col-12 col-md-6 col-lg-2 borderIcons "class="card simbolCard ">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-100" height="4em" viewBox="0 0 512 512"><path d="M256 32c12.5 0 24.1 6.4 30.8 17L503.4 394.4c5.6 8.9 8.6 19.2 8.6 29.7c0 30.9-25 55.9-55.9 55.9H55.9C25 480 0 455 0 424.1c0-10.5 3-20.8 8.6-29.7L225.2 49c6.6-10.6 18.3-17 30.8-17zm65 192L256 120.4 176.9 246.5l18.3 24.4c6.4 8.5 19.2 8.5 25.6 0l25.6-34.1c6-8.1 15.5-12.8 25.6-12.8h49z"/></svg>
+            <div class="card-body mt-3">
+              <p >lorem ipsum dolor</p>
+              
+            </div>
+            
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-2 borderIcons  "class="card simbolCard ">
+            <svg xmlns="http://www.w3.org/2000/svg"  class="w-100" height="4em" viewBox="0 0 576 512"><path d="M384 476.1L192 421.2V35.9L384 90.8V476.1zm32-1.2V88.4L543.1 37.5c15.8-6.3 32.9 5.3 32.9 22.3V394.6c0 9.8-6 18.6-15.1 22.3L416 474.8zM15.1 95.1L160 37.2V423.6L32.9 474.5C17.1 480.8 0 469.2 0 452.2V117.4c0-9.8 6-18.6 15.1-22.3z"/></svg>
+            <div class="card-body mt-3 ">
+              <p >lorem ipsum dolor</p>
+            </div>
+            
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-2 borderIcons "class="card simbolCard ">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-100" height="4em" viewBox="0 0 576 512"><path d="M377 52c11-13.8 8.8-33.9-5-45s-33.9-8.8-45 5L288 60.8 249 12c-11-13.8-31.2-16-45-5s-16 31.2-5 45l48 60L12.3 405.4C4.3 415.4 0 427.7 0 440.4V464c0 26.5 21.5 48 48 48H288 528c26.5 0 48-21.5 48-48V440.4c0-12.7-4.3-25.1-12.3-35L329 112l48-60zM288 448H168.5L288 291.7 407.5 448H288z"/></svg>
+            <div class="card-body mt-3">
+              <p>lorem ipsum dolor</p>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <!-- FINE ICONS -->
+    </header>
+    <main>
+      <!-- SECTION SCRIPT  -->
+      <section class="container-fluid distanceContainerScript">
+        <div class="row ">
+          <div class="col-12 col-4-lg px-5 text-start cardsText  ">
+            <h3 class="TimelineTitleSection">
+              Lorem Ipsum Dolor Sit
+            </h3>  
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex doloribus laboriosam dicta fugiat? Asperiores maxime, magnam dicta modi quas adipisci dolorem, minus sit optio ullam repellendus non architecto! Amet, illo!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia corrupti non molestias quos doloribus exercitationem laudantium debitis aspernatur veritatis harum voluptate eveniet, nesciunt officia, magni tempora!
+            </p>
+          </div>
+          
+          <div class="col-12 col-4-lg px-5 text-end cardsText">
+            <h3 class="TimelineTitleSection">
+              Lorem Ipsum Dolor Sit
+            </h3>  
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex doloribus laboriosam dicta fugiat? Asperiores maxime, magnam dicta modi quas adipisci dolorem, minus sit optio ullam repellendus non architecto! Amet, illo!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia corrupti non molestias quos doloribus exercitationem laudantium debitis aspernatur veritatis harum voluptate eveniet, nesciunt officia, magni tempora!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- FINE SECTION SCRIPT -->
+
+      <!-- REDBUTTON E SFONDO ALBERI-->
+      <section class="container-fluid mt-5 position-relative">
+        <div class="row w-100 ">
+          <div class="col-12 col-lg-4 w-100 d-flex justify-content-center mt-4">
+            <button type="button" class="btn RedButtonMid pb-2 mt-5 btn-danger">Lorem Ipsum</button>
+          </div>
+          <div class="col-12 col-lg-12 SfondoAlberi1">
+          </div>
+        </div>
+      </section>
+      <!-- FINE SFONDO ALBERI -->
+      
+      <!-- TIMELINE -->
+      <section class="container-fluid bg-white ">
+        <div class="row TimeLine bg-white position-relative ">
+          <div class="col-12  col-5-lg mb-5 TimelineTitleSection  ">
+            <h2> OUR TIMELINE</h2>
+          </div>
+          <div class="col-12  col-lg-12 TimelineSectionBorder ">
+           <h4 class="TimelineTitleSection">Lorem ipsum</h4> 
+           <p class="w-50 ">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, debitis atque. Doloribus illum est recusandae tempore quod, hic, error ducimus, cum dicta voluptatum eaque facilis! Doloremque, sequi suscipit? Impedit, quas.
+            </p>
+          </div>
+          <div class="col-12  col-lg-12 TimelineSectionBorder">
+           <h4 class="TimelineTitleSection">Lorem ipsum</h4> 
+           <p class="w-50">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, debitis atque. Doloribus illum est recusandae tempore quod, hic, error ducimus, cum dicta voluptatum eaque facilis! Doloremque, sequi suscipit? Impedit, quas.
+            </p>
+          </div>
+         <div class="col-12  col-lg-12 TimelineSectionBorder">
+           <h4 class="TimelineTitleSection">Lorem ipsum</h4> 
+           <p class="w-50">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, debitis atque. Doloribus illum est recusandae tempore quod, hic, error ducimus, cum dicta voluptatum eaque facilis! Doloremque, sequi suscipit? Impedit, quas.
+            </p>
+          </div>
+          <div class="col-12  col-lg-12 TimelineSectionBorder py-0 position-relative mb-5">
+           <h4 class="TimelineTitleSection">Lorem ipsum</h4> 
+           <p class="w-50">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, debitis atque. Doloribus illum est recusandae tempore quod, hic, error ducimus, cum dicta voluptatum eaque facilis! Doloremque, sequi suscipit? Impedit, quas.
+            </p>
+          </div>
+          <div class="col-8 col-lg-11 position-absolute SfondoAlberi2 px-0"></div>
+        </div>
+      </section>
+      <!-- FINE TIMELINE -->
+      
+      <!-- CARDFOTO -->
+      <section class="container-fluid px-0">
+        <div class="row mx-5 ">
+          <div class="col-12 col-lg-12 TimelineTitleSection mt-5">
+            <h2 class="text-start pb-2">
+             OUR TEAM
+            </h2>
+          </div>
+          <div class="col-12 col-lg-3  ">
+            <div class="card CardSizeColor mx-5  ">
+              <img src="./media/landscape-975091_1920.jpg" class=" mx-5  ImgCard rounded-circle img-fluid" alt="...">
+              <div class="card-body text-center px-0">
+                <h5 class="card-title ColorCardText">
+                  Lorem Ipsum
+                </h5>
+                <p class="card-text CardTextSize">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio magni vero, illo laudantium odit iure.
+                </p>
+                <div class="btn-group " role="group" aria-label="Basic example">
+                  <button type="button" class="btn ">
+                    <a href="https://www.instagram.com/aulab_it/" class="btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                        <path d="M16.5 7.5l0 .01"></path>
+                     </svg>
+                    </a>
+                  </button>
+                  <button type="button" class="btn ">
+                    <a href="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2F&trk=login_reg_redirect" class="btn"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin " width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                      <path d="M8 11l0 5"></path>
+                      <path d="M8 8l0 .01"></path>
+                      <path d="M12 16l0 -5"></path>
+                      <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                      </svg>
+                    </a>
+                  </button>
+                  <button type="button" class="btn ">
+                    <a href="https://www.facebook.com/aulab/" class="btn "><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook-filled IconsColor" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" stroke-width="0" fill="currentColor"></path>
+                      </svg>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-12 col-lg-3  ">
+            <div class="card CardSizeColor mx-5 ">
+             <img src="./media/landscape-975091_1920.jpg" class=" mx-5 ImgCard rounded-circle img-fluid" alt="...">
+              <div class="card-body text-center px-0">
+                <h5 class="card-title ColorCardText ">
+                  Lorem Ipsum
+                </h5>
+                <p class="card-text CardTextSize">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio magni vero, illo laudantium odit iure
+                </p>
+                <div class="btn-group " role="group" aria-label="Basic example">
+                  <button type="button" class="btn ">
+                    <a href="https://www.instagram.com/aulab_it/" class="btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                        <path d="M16.5 7.5l0 .01"></path>
+                     </svg>
+                    </a>
+                  </button>
+                  <button type="button" class="btn ">
+                    <a href="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2F&trk=login_reg_redirect" class="btn"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin " width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                      <path d="M8 11l0 5"></path>
+                      <path d="M8 8l0 .01"></path>
+                      <path d="M12 16l0 -5"></path>
+                      <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                      </svg>
+                    </a>
+                  </button>
+                  <button type="button" class="btn ">
+                    <a href="https://www.facebook.com/aulab/" class="btn "><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook-filled IconsColor" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" stroke-width="0" fill="currentColor"></path>
+                      </svg>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-12 col-lg-3  ">
+            <div class="card CardSizeColor mx-5 ">
+             <img src="./media/landscape-975091_1920.jpg" class=" mx-5 ImgCard rounded-circle img-fluid" alt="...">
+              <div class="card-body text-center px-0">
+                <h5 class="card-title ColorCardText ">
+                  Lorem Ipsum
+                </h5>
+                <p class="card-text CardTextSize">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio magni vero, illo laudantium odit iure.
+                </p>
+                <div class="btn-group " role="group" aria-label="Basic example">
+                  <button type="button" class="btn ">
+                    <a href="https://www.instagram.com/aulab_it/" class="btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                        <path d="M16.5 7.5l0 .01"></path>
+                     </svg>
+                    </a>
+                  </button>
+                  <button type="button" class="btn ">
+                    <a href="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2F&trk=login_reg_redirect" class="btn"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin " width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                      <path d="M8 11l0 5"></path>
+                      <path d="M8 8l0 .01"></path>
+                      <path d="M12 16l0 -5"></path>
+                      <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                      </svg>
+                    </a>
+                  </button>
+                  <button type="button" class="btn ">
+                    <a href="https://www.facebook.com/aulab/" class="btn "><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook-filled IconsColor" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" stroke-width="0" fill="currentColor"></path>
+                      </svg>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-lg-3  ">
+            <div class="card CardSizeColor mx-2  ">
+              <img src="./media/landscape-975091_1920.jpg" class=" mx-5 ImgCard rounded-circle img-fluid" alt="...">
+              <div class="card-body text-center px-0">
+                <h5 class="card-title ColorCardText">Lorem Ipsum</h5>
+                <p class="card-text CardTextSize">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio magni vero, illo laudantium odit iure.
+                </p>
+               
+                <div class="btn-group " role="group" aria-label="Basic example">
+                  <button type="button" class="btn ">
+                    <a href="https://www.instagram.com/aulab_it/" class="btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                        <path d="M16.5 7.5l0 .01"></path>
+                     </svg>
+                    </a>
+                  </button>
+                  <button type="button" class="btn ">
+                    <a href="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2F&trk=login_reg_redirect" class="btn"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin " width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path>
+                      <path d="M8 11l0 5"></path>
+                      <path d="M8 8l0 .01"></path>
+                      <path d="M12 16l0 -5"></path>
+                      <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                      </svg>
+                    </a>
+                  </button>
+                  <button type="button" class="btn ">
+                    <a href="https://www.facebook.com/aulab/" class="btn "><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook-filled IconsColor" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" stroke-width="0" fill="currentColor"></path>
+                      </svg>
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FINE CARDFOTO -->
+      <!-- CARD BENEFICI -->
+      <section class="container-fluid SpaceBTWCard  ">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-lg-12 d-flex justify-content-start mb-5">
+            <h2 class="titleColorCard mx-5 px-4 ">OUR BENEFIT</h2>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h4 class="ColorCardText"> Lorem Ipsum Dolo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus assumenda autem nesciunt ab, architecto consequuntur est accusamus earum vero illo officiis necessitatibus temporibus molestiae natus aperiam suscipit nisi praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>  
+          </div>
+          <div class="col-12 col-lg-5 d-flex justify-content-center">
+            <img src="./media/fog.jpg" class=" mx-5 ImgCard rounded-circle img-fluid" alt="...">
+          </div>
+        </div>
+       
+        <div class="row d-flex justify-content-center mt-5 order-2">
+          <div class="col-12 col-lg-5  d-flex justify-content-center">
+            <img src="./media/mountain-547363_1920.jpg" class=" mx-5 ImgCard rounded-circle img-fluid" alt="...">
+          </div>
+          <div class="col-12 col-lg-6 order-1">
+            <h4 class="ColorCardText"> Lorem Ipsum Dolo</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus assumenda autem nesciunt ab, architecto consequuntur est accusamus earum vero illo officiis necessitatibus temporibus molestiae natus aperiam suscipit nisi praesentium! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            </p>  
+          </div>
+        </div>
+        <!-- FINE CARD BENEFICI -->
+        <!-- SEZIONE ALBERI ROSSI -->
+        <section class="container-fluid mt-5 position-relative">
+          <div class="row w-100 ">
+            <div class="col-12 col-lg-12 SfondoAlberi3  "></div>
+          </div>
+        </section>
+        <!-- FINE SEZIONE ALBERI ROSSI -->
+      </section>
+    </main>
+    <footer>
+     <!-- INIZIO FOOTER -->
+      <div class="container-fluid RedFooter px-5 ">
+        <div class="row">
+          <div class="col-12 col-lg-12 pt-5 TitleFooter">
+            <h2>
+              LOREM
+            </h2>
+          </div>
+          <div class="col-12 col-lg-8 TextFooter ">
+            <h4>
+              Testo Generico
+            </h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eum blanditiis itaque facilis dolorem maiores inventore, est nihil consectetur corporis, quia nisi deleniti esse commodi rem!
+            </p>
+            <p class="pt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eum blanditiis itaque facilis dolorem maiores inventore, est nihil consectetur corporis, quia nisi deleniti esse commodi rem!
+            </p>
+          </div>
+          <div class="col-12 col-lg-4 TextFooter">
+            <h4>
+              Quick link
+            </h4>
+            <div class="list">
+              <ul>
+                <li class="my-2"><a href="#"></a>Lorem link</li>
+                <li class="my-2"><a href="#"></a>Lorem link</li>
+                <li class="my-2"><a href="#"></a>Lorem link</li>
+                <li><a href="#"></a>Lorem link</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FINE FOOTER  -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

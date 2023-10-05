@@ -1,0 +1,279 @@
+body{
+    background-color: rgb(236, 235, 235);
+}
+
+.logosize{
+    height: 50px;
+    justify-content: center;
+}
+
+.navbartext{
+    list-style: none;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.165);
+    
+}
+
+.Sfondo1{
+    background-image: url(./media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Sfumatura{
+    background: linear-gradient(180deg, rgba(255,255,255,0.9612219887955182) 15%, rgba(203, 57, 57, 0) 80%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.Sfondo2{
+    background-image: url(./media/mountains2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.165) ;
+}
+
+.mainTitle{
+    font-size: 7rem;
+    letter-spacing: 30px;
+    font-family: 'Nova Square';
+    color: darkred;
+    padding-left: 10px;
+    
+   
+}
+
+.ContainerTitle{
+    height: 100vh;
+    padding-left: 56%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+   
+}
+
+/* SFONDO ALBERI HEADER FINITO */
+
+/* SEZIONE FRASE */
+.textHead{
+    text-align: center;
+    font-family: 'Rajdhani';
+    color: grey;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/* FINE SEZIONE FRASE */
+
+/* ICONS */
+.distanceContainerIcons{
+    margin-top: 15vh;
+    text-align: center;
+}
+
+
+.borderIcons{
+    border-bottom: 3px solid darkred;
+}
+
+.borderIcons::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    position: relative;
+    top: 17px;
+    left: 3px;
+    display: inline-block;
+}
+
+
+svg{
+    fill: darkred;
+}
+/* FINE ICONS */
+
+.distanceContainerScript{
+    margin-top: 17vh;
+
+}
+
+.cardsText{
+    width: 50%;
+    font-weight: 400;
+}
+
+.borderCard{
+    border-bottom: 3px solid darkred;
+}
+
+.RedButtonMid{
+    width: 13vw;
+    border-radius: 0;
+    background-color: darkred;
+    z-index: 2;
+}
+
+
+.SfondoAlberi1{
+    background-image: url(./media/trees2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    position: absolute;
+    height: 45vh;
+    width: 100vw;
+    background-color:  rgb(236, 235, 235) ;
+    
+}
+
+/* SEZIONE TIMELINE */
+
+.TimeLine{
+   margin-top: 33vh;
+    /* border-left: 3px solid darkred; */
+    margin-left: 10px;
+}
+.TimelineSectionBorder::before{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid darkred;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    left: -9px;
+    content: '';
+    /* right: 10px; */
+}
+
+
+.TimelineTitleSection{
+    font-family: 'Nova Square';
+    color: darkred;
+    
+    
+}
+
+.TimelineSectionBorder{
+    border-left: 3px solid darkred;
+    padding-bottom: 5vh;
+    text-align: start;
+    
+    
+}
+
+.SfondoAlberi2{
+    background-image: url(./media/single.png);
+    background-repeat: no-repeat;
+    background-position:right,bottom;
+    position: absolute;
+    height: 100vh;
+    /* width: 100vw; */
+    ;
+    
+
+    
+}
+
+.TimelineTitleSection{
+    font-family: 'Nova Square';
+    color: darkred;
+    
+}
+
+.CardSizeColor{
+    width: 18rem;
+    background-color: rgba(255, 255, 255, 0) ;
+    border: none;
+
+}
+
+.ImgCard{
+    width: 200px;
+    height: 200px;
+    outline-style: solid;
+    outline-offset: 10px;
+    outline-color: darkred;
+}
+
+/* outline */
+
+.ColorCardText{
+    color: darkred;
+}
+
+ .CardTextSize{
+    font-size: 12px;
+    color: black;
+}
+
+.IconsColor{
+    color:darkred;
+}
+
+/* CARD BENEFICI */
+
+.SpaceBTWCard{
+    margin-top: 18vh;
+}
+
+
+.titleColorCard{
+    font-family: 'Nova Square';
+    color: darkred;
+}
+
+/* SEZIONE ALBERI ROSSI*/
+
+.SfondoAlberi3{
+    background-image: url(./media/other.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    position: absolute;
+    height: 54vh;
+    width: 100vw;
+    background-color:  rgb(236, 235, 235) ;
+}
+
+/* FOOTER */
+
+.RedFooter{
+    background-color: darkred;
+    margin-top: 50vh;
+    height: 40vh;
+    color:white
+}
+
+.TitleFooter{
+    font-family: 'Nova Square', cursive;
+    color: white;
+}
+
+.TextFooter{
+    font-family: 'Rajdhani';
+
+}
+
+
+
+@media screen {
+    10; 
+}
